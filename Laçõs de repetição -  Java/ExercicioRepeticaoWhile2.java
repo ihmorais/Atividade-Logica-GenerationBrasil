@@ -25,7 +25,7 @@ public class ExercicioRepeticaoWhile2 {
 		int pessoaCalma =0 , mulherNervosa = 0, homemAgressivo = 0, outroCalmo = 0, pessoaNervosaQuarentaPlus = 0,
 		pessoaCalma18Less = 0;
 		
-		while(entrevistados < 6 ) {
+		while(entrevistados < 150 ) {
 			System.out.println("===================================");
 			System.out.println("Digite Sua idade: ");
 			idade = input.nextInt();

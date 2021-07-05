@@ -16,10 +16,10 @@ public class ExercicioRepeticaoWhile1 {
 			System.out.println("Informe sua idade: ");
 			idade = input.nextInt();
 			
-			if (idade <= 21) {
+			if (idade > 0 && idade < 21) {
 				idadeVinteUmLess++;
 			}
-			else if(idade >= 50) {
+			else if(idade > 50) {
 				idadeCinquentaPlus++;
 			}
 			System.out.println("Total de pessoas com menos de 21 anos: " + idadeVinteUmLess);
